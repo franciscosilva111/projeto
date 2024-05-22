@@ -8,13 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>Comparador de Componentes de Computadores</h1>
+        <div class="logo">
+            <h1>Comparador de Componentes</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
-                <li><a href="produto.html">Detalhes do Produto</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar componentes..." id="searchInput">
+            <button onclick="search()">Pesquisar</button>
+        </div>
     </header>
     <main>
         <h2>Componentes Populares</h2>
@@ -37,5 +44,8 @@
     <footer>
         <p>&copy; 2024 Comparador de Componentes de Computadores. Todos os direitos reservados.</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
+
+
